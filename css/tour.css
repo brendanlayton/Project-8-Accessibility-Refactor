@@ -1,0 +1,53 @@
+/* Tour page styles */
+
+pre {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+  display: inline-block;
+  margin: 0;
+}
+
+table {
+	background-color: rgb(255, 245, 182);
+	color: #2d2b30;
+	margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+	border-bottom: 1px solid #2d2b30;
+}
+
+th {
+	background-color: rgb(169, 245, 182);
+}
+
+th, td {
+	padding: 10px;
+}
+
+tr {
+	transition: scale 2s ease-in-out;
+}
+
+tr:hover {
+	background-color: rgb(255, 236, 118);
+}
+
+.pick {
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+
+	table {
+		margin: 0 0 0 5%;
+	}
+
+
+}
