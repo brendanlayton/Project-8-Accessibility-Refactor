@@ -1,61 +1,55 @@
 /* Survey page styles */
-
 .photo {
-  width: 100%;
-  padding: 10px;
+	width: 100%;
+	padding: 10px;
 }
 
 form {
-  margin: 0 auto;
-  text-align: left;
-  display: inline-block;
+	margin: 0 auto;
+	text-align: left;
+	display: inline-block;
 }
 
 fieldset {
 	border: none;
-  border-bottom: 1px solid;
-  margin-bottom: 8%;
-  padding-bottom: 8%;
+	border-bottom: 1px solid;
+	margin-bottom: 8%;
+	padding-bottom: 8%;
 }
 
 textarea {
 	width: 100%;
-  height: 60px;
+	height: 60px;
 	border-radius: 5px;
 }
 
-label[for="albums"],
-label[for="song"] {
+label[for="albums"],label[for="song"] {
 	display: block;
 	margin-bottom: 15px;
 }
 
-input:focus,
-textarea:focus,
-select:focus {
+input:focus,textarea:focus,select:focus {
 	padding-left: 10px;
-	background-color: rgb(255, 245, 182);
+	background-color: #fff5b6;
 	color: #424242;
 	border: solid 2px #375578;
 }
 
-input:focus,
-textarea:focus {
+input:focus,textarea:focus {
 	padding-top: 10px;
 }
 
 .form-row {
-  height: 55px;
+	height: 55px;
 }
 
 .form-row input {
 	padding: 10px;
-  border-radius: 5px;
+	border-radius: 5px;
 	margin-top: 10px;
 }
 
-.col-1,
-.col-2 {
+.col-1,.col-2 {
 	float: left;
 }
 
@@ -69,7 +63,7 @@ textarea:focus {
 }
 
 .btn-submit {
-	background: rgb(169, 245, 182);
+	background: #a9f5b6;
 	padding: 12px;
 	color: #2d2b30;
 	border-radius: 5px;
@@ -77,60 +71,62 @@ textarea:focus {
 	font-weight: 700;
 	border: none;
 	width: 80%;
-	font-size: 0.9em;
+	font-size: .9em;
 	margin: 10%;
 	text-align: center;
 }
 
-
-.styled-select select {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	width: 200px;
+.styled-select {
+	width: 100%;
 	height: 40px;
 	padding-left: 20px;
 	font-size: .9em;
-	background: url('../img/chev-down.png') no-repeat 170px #ebecee;
+	background: url(../img/chev-down.png) no-repeat 230px #ebecee;
+	overflow: hidden;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+select {
+	width: 110%;
+	background: transparent;
+	border: none;
+	font-size: 1em;
 }
 
 .container {
-  text-align: center;
+	text-align: center;
 }
 
 .newsletter {
-  text-align: left;
+	text-align: left;
 	position: relative;
 	margin: 15px 0;
 }
 
-.fa,
-.hint {
+.fa,.hint {
 	display: none !important;
 }
 
-
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
-  
-	.photo{
-    width: 40%;
-  }
+	.photo {
+		width: 40%;
+	}
 
 	.col-1 {
 		width: 20%;
-    margin-right: 10%;
+		margin-right: 10%;
 	}
 
 	.col-2 {
 		width: 70%;
 	}
-	
-	.fa,
-	.hint {
+
+	.fa,.hint {
 		display: inline-block !important;
 	}
-	
+
 	.fa {
 		margin-left: 8px;
 		cursor: pointer;
@@ -143,8 +139,8 @@ textarea:focus {
 		width: 200px;
 		line-height: 1.1;
 		font-size: .95em;
-		background: #333333;
-		color: rgb(255, 245, 182);
+		background: #333;
+		color: #fff5b6;
 		padding: 10px;
 		outline-color: #a2a2a2;
 		outline-style: groove;
@@ -154,11 +150,11 @@ textarea:focus {
 	}
 
 	#name-hint.hint {
-		top: -24px
+		top: -24px;
 	}
 
 	#email-hint.hint {
-		top: 37px
+		top: 37px;
 	}
 
 	#retry-hint.hint {
@@ -179,10 +175,9 @@ textarea:focus {
 		transition: 1s ease-in-out;
 		cursor: pointer;
 	}
-	
+
 	.btn-submit:hover {
 		background-color: #404040;
 		color: #c6ebf7;
 	}
-	
 }

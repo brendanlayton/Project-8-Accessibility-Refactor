@@ -1,41 +1,39 @@
 /* Global Layout Set-up */
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(255, 245, 182);
-  background: #2d2b30;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Open Sans',sans-serif;
+	color: #fff5b6;
+	background: #2d2b30;
 }
 
-
 /* Link Styles & Button Styles*/
-
 a {
-  text-decoration: none;
-  color: #9ee7ff;
+	text-decoration: none;
+	color: #9ee7ff;
 }
 
 a:hover {
-  color: #c6ebf7;
+	color: #c6ebf7;
 }
 
-a:focus, a:active {
-   outline: 1px solid yellow;
- }
+a:focus,a:active {
+	outline: 1px solid #ff0;
+}
 
 .cta {
 	margin-top: 10%;
 	background: none;
-  border: none;
+	border: none;
 }
 
 .buy {
-	background: rgb(169, 245, 182);
+	background: #a9f5b6;
 	padding: 12px;
 	color: #2d2b30;
 	border-radius: 5px;
@@ -50,62 +48,61 @@ a:focus, a:active {
 }
 
 /* Header styles */
-
 .main-nav {
-  width: 100%;
-  background: rgba(45, 43, 48, 0.8);
-  min-height: 30px;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
+	width: 100%;
+	background: rgba(45,43,48,0.8);
+	min-height: 30px;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-around;
-  font-weight: 700;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 2px;
+	display: flex;
+	justify-content: space-around;
+	font-weight: 700;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 2px;
 	cursor: pointer;
 }
 
 .nav .name {
-  display: block;
-  margin-right: auto;
-  color: white;
-  letter-spacing: 5px;
+	display: block;
+	margin-right: auto;
+	color: #fff;
+	letter-spacing: 5px;
 }
 
 .name {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 .nav li {
-  padding: 5px 10px 10px 10px;
+	padding: 5px 10px 10px;
 }
 
 .nav a {
-  transition: all .5s;
+	transition: all .5s;
 }
 
 .nav a:hover {
-  color: white
+	color: #fff;
 }
 
 .main-header {
-  text-align: center;
-  background: url('../img/concert02_no_text.jpg') no-repeat top center #fff;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
+	text-align: center;
+	background: url(../img/concert02_no_text.jpg) no-repeat top center #fff;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
 }
 
 .main-title {
 	color: #262626;
-  font-size: 270%;
-  margin-top: 12%;
-  text-transform: uppercase;
+	font-size: 270%;
+	margin-top: 12%;
+	text-transform: uppercase;
 }
 
 .main-sub {
@@ -114,120 +111,115 @@ a:focus, a:active {
 	text-transform: lowercase;
 }
 
-.main-title,
-.main-sub {
+.main-title,.main-sub {
 	text-align: center;
 	font-weight: 700;
 }
 
 .tag {
-  color: black;
-  padding: 10px;
-  letter-spacing: 5px;
+	color: #000;
+	padding: 10px;
+	letter-spacing: 5px;
 }
 
 .tagline {
-  font-weight: 600;
-  padding: 20px;
-  text-transform: uppercase;
-  color: rgb(169, 245, 182)
+	font-weight: 600;
+	padding: 20px;
+	text-transform: uppercase;
+	color: #a9f5b6;
 }
 
 /* Main content styles */
-
-
 .card {
-  margin: 30px 10px;
-  padding: 20px 10px;
-  text-align: center;
-  border-top: 4px solid rgb(169, 245, 182);
-  clear: both;
+	margin: 30px 10px;
+	padding: 20px 10px;
+	text-align: center;
+	border-top: 4px solid #a9f5b6;
+	clear: both;
 }
 
 .card:hover {
-  border-color: rgb(248, 248, 198);
+	border-color: #f8f8c6;
 }
 
 .photo {
-  display: block;
-  width: 200px;
-  height: 0%;
-  margin: 0 auto;
+	display: block;
+	width: 200px;
+	height: 0;
+	margin: 0 auto;
 }
 
 .information {
-  width: 100%;
-  text-align: center;
+	width: 100%;
+	text-align: center;
 }
 
 .heading {
-  font-size: 2em;
-  text-transform: uppercase;
-  color: rgb(169, 245, 182);
-  margin-top: 10px;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #a9f5b6;
+	margin-top: 10px;
 }
 
-
 /* Footer styles */
-
 footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 20px 0 40px 20px;
+	width: 100%;
+	min-height: 30px;
+	padding: 20px 0 40px 20px;
 }
 
 footer .copyright {
-  top: -8px;
-  font-size: .75em;
+	top: -8px;
+	font-size: .75em;
 }
 
 footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 footer ul li {
-  display: inline-block;
+	display: inline-block;
 }
 
 a.social {
-  display: inline-block;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  transition: scale 2s ease-in-out;
+	display: inline-block;
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	background-size: 30px 30px;
+	transition: scale 2s ease-in-out;
 }
 
 a.twitter {
-  background-image: url(../img/twitter-32.png);
+	background-image: url(../img/twitter-32.png);
 }
 
 a.youtube {
-  background-image: url(../img/youtube-32.png);
+	background-image: url(../img/youtube-32.png);
 }
 
 a.spotify {
-  background-image: url(../img/spotify-32.png);
+	background-image: url(../img/spotify-32.png);
 }
 
 a.social:hover {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 a[title]:hover:after {
-  content: attr(title);
-  padding: 8px;
+	content: attr(title);
+	padding: 8px;
 	width: 80px;
 	height: 40px;
-  position: absolute;
-  left: 0;
-  top: -60px;
-  z-index: 20;
-	font-size: 0.6em;
-  color: rgb(255, 245, 182);
-	background: #333333;
+	position: absolute;
+	left: 0;
+	top: -60px;
+	z-index: 20;
+	font-size: .6em;
+	color: #fff5b6;
+	background: #333;
 	outline-color: #a2a2a2;
 	outline-style: groove;
 	outline-width: 5px;
@@ -239,27 +231,27 @@ a[title]:hover:after {
 }
 
 .clearfix {
-  clear: both;
+	clear: both;
 }
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
+	.flex {
+		display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+		display: flex;
+		max-width: 1200px;
+		-ms-flex-pack: distribute;
+	}
 
-  .flex {
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: flex;
-    max-width: 1200px;
-    -ms-flex-pack: distribute;
-  }
+	.main-header {
+		min-height: 700px;
+	}
 
-  .main-header {
-    min-height: 700px;
-  }
-
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
+	.nav {
+		max-width: 1200px;
+		padding: 0 30px;
+	}
 
 	.main-title {
 		font-size: 4em;
@@ -269,37 +261,37 @@ a[title]:hover:after {
 		font-size: 3em;
 	}
 
-  main {
-    padding-top: 20px;
-  }
+	main {
+		padding-top: 20px;
+	}
 
-  main p {
-    line-height: 1.6em;
-  }
+	main p {
+		line-height: 1.6em;
+	}
 
-  .card {
-    margin: 40px auto;
-    padding: 20px 0;
-    width: 90%;
-    max-width: 1000px;
-  }
+	.card {
+		margin: 40px auto;
+		padding: 20px 0;
+		width: 90%;
+		max-width: 1000px;
+	}
 
 	.container {
 		flex-basis: 50%;
 	}
-	
-  .photo {
-    width: 30%;
-    margin: 20px 30px;
-  }
 
-  .information {
-    text-align: left;
-  }
+	.photo {
+		width: 30%;
+		margin: 20px 30px;
+	}
 
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-  }
+	.information {
+		text-align: left;
+	}
+
+	footer {
+		font-size: 1.3em;
+		max-width: 1200px;
+		margin: 40px auto;
+	}
 }
